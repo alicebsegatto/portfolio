@@ -530,10 +530,13 @@ span{
     .cursos h2{
         margin-bottom: 1rem;
     }
+    .curso-info h4{
+        font-size: 1.8rem;
+    }
     .cursos-container{
         grid-template-columns: repeat(1,1fr);
-        padding: 3px;
-        margin: 3px;
+        padding: 2px;
+        margin: 2px;
     }
     .contato-info {
         width: 50%;
@@ -543,7 +546,6 @@ span{
         justify-content: flex-start;
     }
     .contato-item {
-        text-align: justify;
         margin-left: 10px;
     }
     .contato-item i{
@@ -558,6 +560,6 @@ span{
         padding: 1rem 1%;
     }
     .footer a{
-        font-size: 17px;
+        font-size: 15px;
     }
 }
